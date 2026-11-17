@@ -2,16 +2,16 @@ package org.example.e04loop;
 
 public class E04Loop {
     public static void main(String[] args) {
-//        for(int i=0 ; i<5 ; i++){
-//            System.out.println(i);
-//        }
-//
-//        for(int i=0 ; i<2 ; i++){
-//            System.out.println(i);
-//            for(int z=0 ; z<5 ; z++) {
-//                System.out.printf("i값 : %d, z값 : %d%n", i, z);
-//            }
-//        }
+        for(int i=0 ; i<5 ; i++){
+            System.out.println(i);
+        }
+
+        for(int i=0 ; i<2 ; i++){
+            System.out.println(i);
+            for(int z=0 ; z<5 ; z++) {
+                System.out.printf("i값 : %d, z값 : %d%n", i, z);
+            }
+        }
 
         // 구구단 2~9단을 출력
         // 예시)
@@ -25,5 +25,12 @@ public class E04Loop {
         // ...
         // 9 X 8 = 72
         // 9 X 9 = 81
+        for(int i=2 ; i<=9 ; i++){
+            System.out.printf("** %d단 **%n", i);
+            for(int j=1 ; j<=9 ; j++){
+                System.out.printf("%d x %d = %d%n", i, j, (i*j));
+            }
+            System.out.println();
+        }
     }
 }
