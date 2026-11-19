@@ -23,7 +23,7 @@ public class AccessModifier {
         System.out.println("Protected Fn");
     }
 
-    public Whale getStrPrivate(){
-        return new Whale();     // 주소가 반환
-    }
+    // public Whale getStrPrivate(){
+    //     return new Whale();     // 주소가 반환
+    // }
 }
